@@ -1,1 +1,4 @@
-console.log("Hello TypeScript");
+export function sayHello(name: string): string {
+	return "Hello " + name;
+}
+
