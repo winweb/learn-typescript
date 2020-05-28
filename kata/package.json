@@ -7,7 +7,7 @@
     "test": "test"
   },
   "scripts": {
-    "compile": "tsc",
+    "build": "tsc",
     "clean": "rm src/*.js & rm src/*.js.map & rm test/*.js & rm test/*.js.map",
     "test": "jest --detectOpenHandles --colors --passWithNoTests"
   },
