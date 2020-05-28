@@ -7,7 +7,7 @@ function greeter(person: Person) {
     return "Hello, " + person.firstName + " " + person.lastName;
 }
 
-let user = { firstName: "Jane", lastName: "User" };
+let user = { firstName: "Jun", lastName: "User" };
 
 console.log(greeter(user));
 
